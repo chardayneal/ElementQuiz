@@ -13,6 +13,9 @@
 		1C0CCE2F2B4B03E2002C443B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0CCE2D2B4B03E2002C443B /* Main.storyboard */; };
 		1C0CCE312B4B03E5002C443B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0CCE302B4B03E5002C443B /* Assets.xcassets */; };
 		1C0CCE342B4B03E5002C443B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0CCE322B4B03E5002C443B /* LaunchScreen.storyboard */; };
+		1C7C73D52B6450CB00654D02 /* flashcard1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C7C73D22B6450CA00654D02 /* flashcard1.png */; };
+		1C7C73D62B6450CB00654D02 /* flashcard2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C7C73D32B6450CB00654D02 /* flashcard2.png */; };
+		1C7C73D72B6450CB00654D02 /* flashcard3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C7C73D42B6450CB00654D02 /* flashcard3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		1C0CCE302B4B03E5002C443B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C0CCE332B4B03E5002C443B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C0CCE352B4B03E5002C443B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C7C73D22B6450CA00654D02 /* flashcard1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashcard1.png; sourceTree = "<group>"; };
+		1C7C73D32B6450CB00654D02 /* flashcard2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashcard2.png; sourceTree = "<group>"; };
+		1C7C73D42B6450CB00654D02 /* flashcard3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashcard3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		1C0CCE262B4B03E2002C443B /* ElementQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				1C7C73D12B64506100654D02 /* AppScreenshots */,
 				1C0CCE3E2B4B0419002C443B /* Supported Files */,
 				1C0CCE3D2B4B040B002C443B /* Models */,
 				1C0CCE3B2B4B03F6002C443B /* Views */,
@@ -97,6 +104,16 @@
 				1C0CCE292B4B03E2002C443B /* SceneDelegate.swift */,
 			);
 			path = "Supported Files";
+			sourceTree = "<group>";
+		};
+		1C7C73D12B64506100654D02 /* AppScreenshots */ = {
+			isa = PBXGroup;
+			children = (
+				1C7C73D22B6450CA00654D02 /* flashcard1.png */,
+				1C7C73D32B6450CB00654D02 /* flashcard2.png */,
+				1C7C73D42B6450CB00654D02 /* flashcard3.png */,
+			);
+			path = AppScreenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,7 +176,10 @@
 			files = (
 				1C0CCE342B4B03E5002C443B /* LaunchScreen.storyboard in Resources */,
 				1C0CCE312B4B03E5002C443B /* Assets.xcassets in Resources */,
+				1C7C73D72B6450CB00654D02 /* flashcard3.png in Resources */,
+				1C7C73D52B6450CB00654D02 /* flashcard1.png in Resources */,
 				1C0CCE2F2B4B03E2002C443B /* Main.storyboard in Resources */,
+				1C7C73D62B6450CB00654D02 /* flashcard2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
